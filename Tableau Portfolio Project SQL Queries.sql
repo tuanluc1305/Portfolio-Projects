@@ -89,8 +89,6 @@ order by 1,2
 
 -- 3.
 
--- We take these out as they are not inluded in the above queries and want to stay consistent
--- European Union is part of Europe
 
 Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
 From PortfolioProject..CovidDeaths
